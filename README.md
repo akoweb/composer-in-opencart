@@ -34,7 +34,6 @@
     "php": ">=7.1.0",
     "twig/twig": "^3.0",
     "aws/aws-sdk-php": "^3.142.1",
-    "phpoffice/phpspreadsheet": "^1.18",
     "phpmailer/phpmailer": "^6.5"
   }
 }
