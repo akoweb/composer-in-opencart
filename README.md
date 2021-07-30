@@ -1,8 +1,10 @@
-1- add or create below file into opencart folder
+## 1- add or create below file into opencart folder
 
 
-1-1- file name >>>  composer.json
+## 1-1- file name : composer.json
 
+
+```javascript
 
 {
   "name": "opencart/opencart",
@@ -37,18 +39,24 @@
   }
 }
 
+```
 
 
 
 
+## 2- change vendor-dir tag 
 
-2- change vendor-dir tag  >>>>>>>>>  "vendor-dir": "system/storage/vendor/"
-
-
-3- run composer command ... for example >>> composer require phpoffice/phpspreadsheet
+#### "vendor-dir": "system/storage/vendor/"
 
 
-4- finally use the code! >>>>>>>>>>>  added below code into your controller file.
+## 3- run composer command 
+
+####  composer require phpoffice/phpspreadsheet
+
+
+## 4- finally use the code!  added below code into your controller file.
+
+```php
 
 <?php
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -67,3 +75,5 @@ class ControllerCommonHeader extends Controller {
         }
         
  }
+
+```
